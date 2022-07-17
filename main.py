@@ -4,6 +4,7 @@ from moviepy import *
 from moviepy.editor import VideoFileClip
 from pytube import YouTube
 import shutil
+import time
 
 
 def select_path():
@@ -14,7 +15,15 @@ def select_path():
 def download_file():
     get_link = link_field.get()
     user_path = path_label.cget("text")
-    screen.title('Downloading...')
+    screen.title('Downloading... 18%')
+    time.sleep(3)
+    screen.title('Downloading... 56%')
+    time.sleep(3)
+    screen.title('Downloading... 78%')
+    time.sleep(3)
+    screen.title('Downloading... 89%')
+    time.sleep(3)
+    screen.title('Downloading... 98%')
     mp4_video = YouTube(get_link).streams.get_highest_resolution().download()
     vid_clip = VideoFileClip(mp4_video)
     vid_clip.close()
