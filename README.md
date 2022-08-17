@@ -1,3 +1,3 @@
-![VidGui]([http://url/to/img.png](https://www.shareicon.net/data/2015/09/04/95565_yt_512x512.png))
+![VidGui]([https://www.seekpng.com/png/detail/114-1148768_followpinterest-followusfacebook-followusinstagram-youtube-circle-logo-png.png]])
 # About VidGui
 vidgui is a python script/program that helps you to download a video from youtube
